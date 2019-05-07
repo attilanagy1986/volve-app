@@ -1,7 +1,7 @@
 app created with Python using the Dash framework and Plotly library\
 integrated web application for the OpenLab Drilling Simulator to create new configurations based on actual well technical data extracted from the Volve dataset disclosed by Equinor\
-app deployed at http://openlab.herokuapp.com\
-the OpenLab Web Client can be accessed at https://live.openlab.app/\
+app deployed at http://openlab.herokuapp.com \
+the OpenLab Web Client can be accessed at https://live.openlab.app \
 no registration is needed, the simulator can be used by signing in with a Google account
 
 **Repository structure**\
