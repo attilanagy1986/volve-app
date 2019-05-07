@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<witsml:drillReports version="1.4.0.0" xmlns:witsml="http://www.witsml.org/schemas/1series" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.witsml.org/schemas/1series http://www.npd.no/schema//DDRS/1series/WITSML_drillReport_profiled_schema_phase2.xsd"><witsml:documentInfo><witsml:documentName>Drill Report 1.2.2</witsml:documentName><witsml:owner>IIP</witsml:owner></witsml:documentInfo>
+<witsml:drillReport>
+<witsml:nameWell>NO 15/9-F-11 B</witsml:nameWell><witsml:nameWellbore>NO 15/9-F-11 B</witsml:nameWellbore><witsml:name>name</witsml:name><witsml:dTimStart>2013-06-27T00:00:00+02:00</witsml:dTimStart><witsml:dTimEnd>2013-06-28T00:00:00+02:00</witsml:dTimEnd><witsml:versionKind>normal</witsml:versionKind><witsml:createDate>2018-05-03T13:51:36+02:00</witsml:createDate>
+<witsml:wellAlias><witsml:name>15/9-F-11 B</witsml:name><witsml:namingSystem>NPD code</witsml:namingSystem></witsml:wellAlias>
+<witsml:wellboreAlias><witsml:name>15/9-F-11 B</witsml:name><witsml:namingSystem>NPD code</witsml:namingSystem></witsml:wellboreAlias><witsml:wellboreAlias><witsml:name>7080</witsml:name><witsml:namingSystem>NPD number</witsml:namingSystem></witsml:wellboreAlias>
+<witsml:wellboreInfo><witsml:dTimSpud>2013-05-28T14:30:00+02:00</witsml:dTimSpud><witsml:dateDrillComplete>2013-06-12</witsml:dateDrillComplete><witsml:daysAhead>14.2</witsml:daysAhead><witsml:operator>Statoil</witsml:operator><witsml:drillContractor>Maersk Drilling</witsml:drillContractor><witsml:rigAlias><witsml:name>MÆRSK INSPIRER</witsml:name><witsml:namingSystem>NPD Name</witsml:namingSystem></witsml:rigAlias><witsml:rigAlias><witsml:name>369304</witsml:name><witsml:namingSystem>NPD code</witsml:namingSystem></witsml:rigAlias></witsml:wellboreInfo>
+<witsml:statusInfo><witsml:reportNo>31</witsml:reportNo><witsml:dTim>2013-06-28T00:00:00+02:00</witsml:dTim><witsml:md uom="m">4770</witsml:md><witsml:dTimDiaHoleStart>2013-06-21T21:00:00+02:00</witsml:dTimDiaHoleStart><witsml:mdDiaHoleStart uom="m">4770</witsml:mdDiaHoleStart><witsml:strengthForm uom="g/cm3">1.65</witsml:strengthForm><witsml:mdStrengthForm uom="m">3192</witsml:mdStrengthForm><witsml:tvdStrengthForm uom="m">2780</witsml:tvdStrengthForm><witsml:mdCsgLast uom="m">4768.7</witsml:mdCsgLast><witsml:tvdCsgLast uom="m">3257</witsml:tvdCsgLast><witsml:presTestType>formation integrity test</witsml:presTestType><witsml:mdPlanned uom="m">-999.99</witsml:mdPlanned><witsml:distDrill uom="m">-999.99</witsml:distDrill><witsml:elevKelly uom="m">54.9</witsml:elevKelly><witsml:wellheadElevation uom="m">138.9</witsml:wellheadElevation><witsml:waterDepth uom="m">91</witsml:waterDepth><witsml:sum24Hr>Replaced annular preventer.
+Installed surface riser and BOP.</witsml:sum24Hr><witsml:forecast24Hr>Retrieve annulus insert.
+Rig up and run 10 3/4&quot; tie back string.</witsml:forecast24Hr><witsml:ropCurrent uom="m/h">-999.99</witsml:ropCurrent><witsml:tightWell>0</witsml:tightWell><witsml:hpht>0</witsml:hpht><witsml:fixedRig>false</witsml:fixedRig></witsml:statusInfo>
+<witsml:fluid><witsml:type>NaCl brine</witsml:type><witsml:locationSample>Flowline</witsml:locationSample><witsml:dTim>2013-06-27T18:00:00+02:00</witsml:dTim><witsml:md datum="RKB" uom="m">4770</witsml:md><witsml:presBopRating uom="bar">345</witsml:presBopRating><witsml:mudClass>water based</witsml:mudClass><witsml:density uom="g/cm3">1.03</witsml:density><witsml:visFunnel uom="s">-999.99</witsml:visFunnel><witsml:pv uom="mPa.s">-999.99</witsml:pv><witsml:yp uom="Pa">-999.99</witsml:yp></witsml:fluid><witsml:fluid><witsml:type>Enviromul Yellow</witsml:type><witsml:locationSample>Reserve pit</witsml:locationSample><witsml:dTim>2013-06-27T15:00:00+02:00</witsml:dTim><witsml:md datum="RKB" uom="m">4770</witsml:md><witsml:presBopRating uom="bar">345</witsml:presBopRating><witsml:mudClass>oil based</witsml:mudClass><witsml:density uom="g/cm3">1.32</witsml:density><witsml:visFunnel uom="s">-999.99</witsml:visFunnel><witsml:pv uom="mPa.s">36</witsml:pv><witsml:yp uom="Pa">14</witsml:yp><witsml:tempHthp uom="degC">120</witsml:tempHthp></witsml:fluid>
+<witsml:activity><witsml:dTimStart>2013-06-27T00:00:00+02:00</witsml:dTimStart><witsml:dTimEnd>2013-06-27T02:00:00+02:00</witsml:dTimEnd><witsml:md uom="m">0</witsml:md><witsml:phase>fixed</witsml:phase><witsml:proprietaryCode>completion -- bop/wellhead equipment</witsml:proprietaryCode><witsml:state>ok</witsml:state><witsml:stateDetailActivity>success</witsml:stateDetailActivity><witsml:comments>Energized multibowl slips.
+Performed 5 Ton overpull test, ok.
+
+Meanwhile: 
+Pressure tested annular BOP to 20 / 345 bar on stump.
+Not able to obtain test. 
+Commenced to replace annular element.</witsml:comments></witsml:activity><witsml:activity><witsml:dTimStart>2013-06-27T02:00:00+02:00</witsml:dTimStart><witsml:dTimEnd>2013-06-27T02:30:00+02:00</witsml:dTimEnd><witsml:md uom="m">0</witsml:md><witsml:phase>fixed</witsml:phase><witsml:proprietaryCode>completion -- bop/wellhead equipment</witsml:proprietaryCode><witsml:state>ok</witsml:state><witsml:stateDetailActivity>success</witsml:stateDetailActivity><witsml:comments>Installed hatches around production riser.
+
+Meanwhile: 
+Replacing annular preventer.</witsml:comments></witsml:activity><witsml:activity><witsml:dTimStart>2013-06-27T02:30:00+02:00</witsml:dTimStart><witsml:dTimEnd>2013-06-27T03:30:00+02:00</witsml:dTimEnd><witsml:md uom="m">0</witsml:md><witsml:phase>fixed</witsml:phase><witsml:proprietaryCode>completion -- bop/wellhead equipment</witsml:proprietaryCode><witsml:state>ok</witsml:state><witsml:stateDetailActivity>success</witsml:stateDetailActivity><witsml:comments>Installed control hose reel and pump for Claxton tool on drill floor.
+
+Meanwhile: 
+Replacing annular preventer.</witsml:comments></witsml:activity><witsml:activity><witsml:dTimStart>2013-06-27T03:30:00+02:00</witsml:dTimStart><witsml:dTimEnd>2013-06-27T05:30:00+02:00</witsml:dTimEnd><witsml:md uom="m">0</witsml:md><witsml:phase>fixed</witsml:phase><witsml:proprietaryCode>completion -- bop/wellhead equipment</witsml:proprietaryCode><witsml:state>ok</witsml:state><witsml:stateDetailActivity>success</witsml:stateDetailActivity><witsml:comments>Erected scaffolding around Claxton tool in moonpool.
+
+Meanwhile: 
+Replacing annular preventer.</witsml:comments></witsml:activity><witsml:activity><witsml:dTimStart>2013-06-27T05:30:00+02:00</witsml:dTimStart><witsml:dTimEnd>2013-06-27T07:30:00+02:00</witsml:dTimEnd><witsml:md uom="m">0</witsml:md><witsml:phase>fixed</witsml:phase><witsml:proprietaryCode>completion -- bop/wellhead equipment</witsml:proprietaryCode><witsml:state>ok</witsml:state><witsml:stateDetailActivity>success</witsml:stateDetailActivity><witsml:comments>Attempted to disengage Claxton tool with 1500 psi on piston.
+Not able to release tool.
+Increased pressure to 1800 psi and released Claxton tool.
+
+Meanwhile: 
+Replacing annular preventer.</witsml:comments></witsml:activity><witsml:activity><witsml:dTimStart>2013-06-27T07:30:00+02:00</witsml:dTimStart><witsml:dTimEnd>2013-06-27T09:30:00+02:00</witsml:dTimEnd><witsml:md uom="m">0</witsml:md><witsml:phase>fixed</witsml:phase><witsml:proprietaryCode>completion -- bop/wellhead equipment</witsml:proprietaryCode><witsml:state>ok</witsml:state><witsml:stateDetailActivity>success</witsml:stateDetailActivity><witsml:comments>Held pre-job meeting.
+Pulled out with Claxton tool and laid down same to cantilever deck.
+
+Meanwhile: 
+Replacing annular preventer.
+Worked with installation of valves and test of multibowl.</witsml:comments></witsml:activity><witsml:activity><witsml:dTimStart>2013-06-27T09:30:00+02:00</witsml:dTimStart><witsml:dTimEnd>2013-06-27T18:00:00+02:00</witsml:dTimEnd><witsml:md uom="m">0</witsml:md><witsml:phase>fixed</witsml:phase><witsml:proprietaryCode>interruption -- maintain</witsml:proprietaryCode><witsml:state>ok</witsml:state><witsml:stateDetailActivity>equipment failure</witsml:stateDetailActivity><witsml:comments>Replaced annular preventer.
+Function tested annular preventer twice prior to pressure test.
+Pressure tested annular preventer to 30 / 345 bar - 5 / 10 minutes, test ok.
+
+Meanwhile:
+Worked with installation of valves and test of multibowl.
+Performed maintenance on TDS.
+Moved slick joint and diverter to drill floor.
+At 17:00 hrs informed PCR to shut down production on well F-12 and F-14.
+</witsml:comments></witsml:activity><witsml:activity><witsml:dTimStart>2013-06-27T18:00:00+02:00</witsml:dTimStart><witsml:dTimEnd>2013-06-28T00:00:00+02:00</witsml:dTimEnd><witsml:md uom="m">0</witsml:md><witsml:phase>fixed</witsml:phase><witsml:proprietaryCode>completion -- bop/wellhead equipment</witsml:proprietaryCode><witsml:state>ok</witsml:state><witsml:stateDetailActivity>success</witsml:stateDetailActivity><witsml:comments>Performed pre-job meeting prior to nipple up BOP.
+Moved BOP to well center and landed same onto riser.
+Made up NT2 connector.
+Connected tension system.
+Ran slick joint and made up same.
+At 23:15 hrs informed PCR to restart production on well F-12 and F-14.</witsml:comments></witsml:activity>
+</witsml:drillReport>
+</witsml:drillReports>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<witsml:drillReports version="1.4.0.0" xmlns:witsml="http://www.witsml.org/schemas/1series" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.witsml.org/schemas/1series http://www.npd.no/schema//DDRS/1series/WITSML_drillReport_profiled_schema_phase2.xsd"><witsml:documentInfo><witsml:documentName>Drill Report 1.2.2</witsml:documentName><witsml:owner>IIP</witsml:owner></witsml:documentInfo>
+<witsml:drillReport>
+<witsml:nameWell>NO 15/9-F-11 A</witsml:nameWell><witsml:nameWellbore>NO 15/9-F-11 A</witsml:nameWellbore><witsml:name>name</witsml:name><witsml:dTimStart>2013-05-25T00:00:00+02:00</witsml:dTimStart><witsml:dTimEnd>2013-05-26T00:00:00+02:00</witsml:dTimEnd><witsml:versionKind>normal</witsml:versionKind><witsml:createDate>2018-05-03T13:51:33+02:00</witsml:createDate>
+<witsml:wellAlias><witsml:name>15/9-F-11 A</witsml:name><witsml:namingSystem>NPD code</witsml:namingSystem></witsml:wellAlias>
+<witsml:wellboreAlias><witsml:name>15/9-F-11 A</witsml:name><witsml:namingSystem>NPD code</witsml:namingSystem></witsml:wellboreAlias><witsml:wellboreAlias><witsml:name>7079</witsml:name><witsml:namingSystem>NPD number</witsml:namingSystem></witsml:wellboreAlias>
+<witsml:wellboreInfo><witsml:dTimSpud>2013-03-07T17:30:00+01:00</witsml:dTimSpud><witsml:dateDrillComplete>2013-05-28</witsml:dateDrillComplete><witsml:daysAhead>7.3</witsml:daysAhead><witsml:operator>Statoil</witsml:operator><witsml:drillContractor>Maersk Drilling</witsml:drillContractor><witsml:rigAlias><witsml:name>MÆRSK INSPIRER</witsml:name><witsml:namingSystem>NPD Name</witsml:namingSystem></witsml:rigAlias><witsml:rigAlias><witsml:name>369304</witsml:name><witsml:namingSystem>NPD code</witsml:namingSystem></witsml:rigAlias></witsml:wellboreInfo>
+<witsml:statusInfo><witsml:reportNo>11</witsml:reportNo><witsml:dTim>2013-05-26T00:00:00+02:00</witsml:dTim><witsml:md uom="m">3389</witsml:md><witsml:dTimDiaHoleStart>2013-05-24T14:30:00+02:00</witsml:dTimDiaHoleStart><witsml:mdDiaHoleStart uom="m">3762</witsml:mdDiaHoleStart><witsml:strengthForm uom="g/cm3">1.65</witsml:strengthForm><witsml:mdStrengthForm uom="m">2574</witsml:mdStrengthForm><witsml:tvdStrengthForm uom="m">2442</witsml:tvdStrengthForm><witsml:mdCsgLast uom="m">2570.7</witsml:mdCsgLast><witsml:tvdCsgLast uom="m">2442</witsml:tvdCsgLast><witsml:presTestType>formation integrity test</witsml:presTestType><witsml:mdPlanned uom="m">-999.99</witsml:mdPlanned><witsml:distDrill uom="m">-999.99</witsml:distDrill><witsml:elevKelly uom="m">54.9</witsml:elevKelly><witsml:wellheadElevation uom="m">0</witsml:wellheadElevation><witsml:waterDepth uom="m">91</witsml:waterDepth><witsml:sum24Hr>Mixed and pumped P&amp;A plug.
+POOH with 3 1/2&quot; stinger while WOC.
+Performed BOP test while WOC.
+RIH with stinger while WOC.
+Circulated and reduced MW to 1,28 sg while WOC.</witsml:sum24Hr><witsml:forecast24Hr>Circulate and reduce MW to 1,28 sg.
+Spot 10 m3 1,32 sg Hi-Vis pill.
+Mix and pump kick off plug.
+POOH with cement stinger.
+Make up and RIH with 12 1/4&quot; drillng BHA.</witsml:forecast24Hr><witsml:ropCurrent uom="m/h">-999.99</witsml:ropCurrent><witsml:tightWell>0</witsml:tightWell><witsml:hpht>0</witsml:hpht><witsml:fixedRig>false</witsml:fixedRig></witsml:statusInfo>
+<witsml:fluid><witsml:type>Enviromul Yellow</witsml:type><witsml:locationSample>Flowline</witsml:locationSample><witsml:dTim>2013-05-25T12:00:00+02:00</witsml:dTim><witsml:md datum="RKB" uom="m">3485</witsml:md><witsml:presBopRating uom="bar">345</witsml:presBopRating><witsml:mudClass>oil based</witsml:mudClass><witsml:density uom="g/cm3">1.32</witsml:density><witsml:visFunnel uom="s">-999.99</witsml:visFunnel><witsml:pv uom="mPa.s">39</witsml:pv><witsml:yp uom="Pa">12.5</witsml:yp><witsml:tempHthp uom="degC">120</witsml:tempHthp></witsml:fluid><witsml:fluid><witsml:type>Enviromul Yellow</witsml:type><witsml:locationSample>Active pit</witsml:locationSample><witsml:dTim>2013-05-25T20:30:00+02:00</witsml:dTim><witsml:md datum="RKB" uom="m">3485</witsml:md><witsml:presBopRating uom="bar">345</witsml:presBopRating><witsml:mudClass>oil based</witsml:mudClass><witsml:density uom="g/cm3">1.32</witsml:density><witsml:visFunnel uom="s">-999.99</witsml:visFunnel><witsml:pv uom="mPa.s">39</witsml:pv><witsml:yp uom="Pa">14</witsml:yp><witsml:tempHthp uom="degC">120</witsml:tempHthp></witsml:fluid>
+<witsml:activity><witsml:dTimStart>2013-05-25T00:00:00+02:00</witsml:dTimStart><witsml:dTimEnd>2013-05-25T02:30:00+02:00</witsml:dTimEnd><witsml:md uom="m">3754</witsml:md><witsml:phase>fixed</witsml:phase><witsml:proprietaryCode>drilling -- other</witsml:proprietaryCode><witsml:state>ok</witsml:state><witsml:stateDetailActivity>success</witsml:stateDetailActivity><witsml:comments>Circulated and conditioned mud with 2400 liter/min, 233 bar, 60 rpm, 13-16 kNm, reciprocated pipe from 3754 m MD to 3720 m MD. 
+Stopped and flow checked well for 15 mintes at 01:15 hrs, well static.
+Performed pre-job meeting prior to cement job while circulating.</witsml:comments></witsml:activity><witsml:activity><witsml:dTimStart>2013-05-25T02:30:00+02:00</witsml:dTimStart><witsml:dTimEnd>2013-05-25T04:30:00+02:00</witsml:dTimEnd><witsml:md uom="m">3754</witsml:md><witsml:phase>fixed</witsml:phase><witsml:proprietaryCode>drilling -- other</witsml:proprietaryCode><witsml:state>ok</witsml:state><witsml:stateDetailActivity>success</witsml:stateDetailActivity><witsml:comments>Pumped 13,3 m3 of 1,50 sg spacer with 800 liter/min, 39 bar.
+Mixed and pumped 13,2 m3 of 1,90 sg cement slurry with 650 liter/min. 
+Displaced the cement to the rig floor with 890 liters of drill water. 
+Pumped 1,8 m3 of 1,50 sg spacer with rig pumps.
+Zeroed volume counters.
+Displaced the cement with 31 m3 of 1,32 sg mud at 2500 liter/min, 132-247 bar, 30 rpm, 12-14 kNm.</witsml:comments></witsml:activity><witsml:activity><witsml:dTimStart>2013-05-25T04:30:00+02:00</witsml:dTimStart><witsml:dTimEnd>2013-05-25T06:30:00+02:00</witsml:dTimEnd><witsml:md uom="m">3325</witsml:md><witsml:phase>fixed</witsml:phase><witsml:proprietaryCode>drilling -- other</witsml:proprietaryCode><witsml:state>ok</witsml:state><witsml:stateDetailActivity>success</witsml:stateDetailActivity><witsml:comments>Pulled out of cement to 3325 m MD. 
+Theoretical TOC at 3484 m MD.</witsml:comments></witsml:activity><witsml:activity><witsml:dTimStart>2013-05-25T06:30:00+02:00</witsml:dTimStart><witsml:dTimEnd>2013-05-25T07:00:00+02:00</witsml:dTimEnd><witsml:md uom="m">3325</witsml:md><witsml:phase>fixed</witsml:phase><witsml:proprietaryCode>drilling -- other</witsml:proprietaryCode><witsml:state>ok</witsml:state><witsml:stateDetailActivity>success</witsml:stateDetailActivity><witsml:comments>Installed two sponge balls.
+Circulated 1,5 x string volume with 2400 liter/min, 230 bar, 50 rpm, 10 kNm.</witsml:comments></witsml:activity><witsml:activity><witsml:dTimStart>2013-05-25T07:00:00+02:00</witsml:dTimStart><witsml:dTimEnd>2013-05-25T07:30:00+02:00</witsml:dTimEnd><witsml:md uom="m">3080</witsml:md><witsml:phase>fixed</witsml:phase><witsml:proprietaryCode>interruption -- wait</witsml:proprietaryCode><witsml:state>ok</witsml:state><witsml:stateDetailActivity>success</witsml:stateDetailActivity><witsml:comments>Waited on cement.
+
+Meanwhile:
+POOH wet with 3 1/2&quot; stinger from 3325 m MD to 3080 m MD.</witsml:comments></witsml:activity><witsml:activity><witsml:dTimStart>2013-05-25T07:30:00+02:00</witsml:dTimStart><witsml:dTimEnd>2013-05-25T09:00:00+02:00</witsml:dTimEnd><witsml:md uom="m">3040</witsml:md><witsml:phase>fixed</witsml:phase><witsml:proprietaryCode>interruption -- wait</witsml:proprietaryCode><witsml:state>ok</witsml:state><witsml:stateDetailActivity>success</witsml:stateDetailActivity><witsml:comments>Waited on cement.
+
+Meanwhile:
+Circulated out remaining spacer with 2450 liter/min, 217 bar, 50 rpm, 11 kNm, reciprocated string from 3080 m MD to 3040 m MD. Observed spacer in returns.</witsml:comments></witsml:activity><witsml:activity><witsml:dTimStart>2013-05-25T09:00:00+02:00</witsml:dTimStart><witsml:dTimEnd>2013-05-25T10:30:00+02:00</witsml:dTimEnd><witsml:md uom="m">2370</witsml:md><witsml:phase>fixed</witsml:phase><witsml:proprietaryCode>interruption -- wait</witsml:proprietaryCode><witsml:state>ok</witsml:state><witsml:stateDetailActivity>success</witsml:stateDetailActivity><witsml:comments>Waited on cement.
+
+Meanwhile:
+POOH wet with 3 1/2&quot; stinger from 3040 m MD to 2370 m MD.
+Cleaned and cleared drillfloor.
+</witsml:comments></witsml:activity><witsml:activity><witsml:dTimStart>2013-05-25T10:30:00+02:00</witsml:dTimStart><witsml:dTimEnd>2013-05-25T11:30:00+02:00</witsml:dTimEnd><witsml:md uom="m">2370</witsml:md><witsml:phase>fixed</witsml:phase><witsml:proprietaryCode>interruption -- wait</witsml:proprietaryCode><witsml:state>ok</witsml:state><witsml:stateDetailActivity>success</witsml:stateDetailActivity><witsml:comments>Waited on cement.
+
+Meanwhile:
+Cleaned and cleared drillfloor.
+Removed PS-21 power slips and installed master bushings.
+Picked up and made up BOP test tool.</witsml:comments></witsml:activity><witsml:activity><witsml:dTimStart>2013-05-25T11:30:00+02:00</witsml:dTimStart><witsml:dTimEnd>2013-05-25T12:30:00+02:00</witsml:dTimEnd><witsml:md uom="m">139.2</witsml:md><witsml:phase>fixed</witsml:phase><witsml:proprietaryCode>interruption -- wait</witsml:proprietaryCode><witsml:state>ok</witsml:state><witsml:stateDetailActivity>success</witsml:stateDetailActivity><witsml:comments>Waited on cement.
+
+Meanwhile:
+RIH with BOP test tool from surface to 139,2 meter.
+Landed BOP test tool in wellhead.</witsml:comments></witsml:activity><witsml:activity><witsml:dTimStart>2013-05-25T12:30:00+02:00</witsml:dTimStart><witsml:dTimEnd>2013-05-25T19:00:00+02:00</witsml:dTimEnd><witsml:md uom="m">139.2</witsml:md><witsml:phase>fixed</witsml:phase><witsml:proprietaryCode>interruption -- wait</witsml:proprietaryCode><witsml:state>ok</witsml:state><witsml:stateDetailActivity>success</witsml:stateDetailActivity><witsml:comments>Waited on cement.
+
+Meanwhile:
+Tested BOP pipe rams and annular preventers to 20 bar / 5 min and 345 bar / 10 min.
+Tested kelly hose, upper / lower IBOP&apos;s, kill and choke lines to 20 bar / 5 min and 345 bar / 10 min.</witsml:comments></witsml:activity><witsml:activity><witsml:dTimStart>2013-05-25T19:00:00+02:00</witsml:dTimStart><witsml:dTimEnd>2013-05-25T20:30:00+02:00</witsml:dTimEnd><witsml:md uom="m">2370</witsml:md><witsml:phase>fixed</witsml:phase><witsml:proprietaryCode>interruption -- wait</witsml:proprietaryCode><witsml:state>ok</witsml:state><witsml:stateDetailActivity>success</witsml:stateDetailActivity><witsml:comments>Waited on cement.
+
+Meanwhile:
+POOH with BOP test tool from 139,2 m MD to surface and laid down same.
+</witsml:comments></witsml:activity><witsml:activity><witsml:dTimStart>2013-05-25T20:30:00+02:00</witsml:dTimStart><witsml:dTimEnd>2013-05-25T21:30:00+02:00</witsml:dTimEnd><witsml:md uom="m">3280</witsml:md><witsml:phase>fixed</witsml:phase><witsml:proprietaryCode>interruption -- wait</witsml:proprietaryCode><witsml:state>ok</witsml:state><witsml:stateDetailActivity>success</witsml:stateDetailActivity><witsml:comments>Waited on cement.
+
+Meanwhile:
+RIH with 3 1/2&quot; stinger from 2370 m MD to 3280 m MD.
+Average tripping speed 910 meter/hour.</witsml:comments></witsml:activity><witsml:activity><witsml:dTimStart>2013-05-25T21:30:00+02:00</witsml:dTimStart><witsml:dTimEnd>2013-05-26T00:00:00+02:00</witsml:dTimEnd><witsml:md uom="m">3280</witsml:md><witsml:phase>fixed</witsml:phase><witsml:proprietaryCode>interruption -- wait</witsml:proprietaryCode><witsml:state>ok</witsml:state><witsml:stateDetailActivity>success</witsml:stateDetailActivity><witsml:comments>Waited on cement.
+
+Meanwhile:
+Circulated and reduced MW from 1,32 sg to 1,28 sg with 2500-2941 liter/min, 225-282 bar, 61 rpm, 7-10 kNm, reciprocated pipe from 3280 m MD to 3242 m MD.</witsml:comments></witsml:activity>
+</witsml:drillReport>
+</witsml:drillReports>

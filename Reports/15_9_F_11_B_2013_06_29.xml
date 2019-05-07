@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<witsml:drillReports version="1.4.0.0" xmlns:witsml="http://www.witsml.org/schemas/1series" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.witsml.org/schemas/1series http://www.npd.no/schema//DDRS/1series/WITSML_drillReport_profiled_schema_phase2.xsd"><witsml:documentInfo><witsml:documentName>Drill Report 1.2.2</witsml:documentName><witsml:owner>IIP</witsml:owner></witsml:documentInfo>
+<witsml:drillReport>
+<witsml:nameWell>NO 15/9-F-11 B</witsml:nameWell><witsml:nameWellbore>NO 15/9-F-11 B</witsml:nameWellbore><witsml:name>name</witsml:name><witsml:dTimStart>2013-06-28T00:00:00+02:00</witsml:dTimStart><witsml:dTimEnd>2013-06-29T00:00:00+02:00</witsml:dTimEnd><witsml:versionKind>normal</witsml:versionKind><witsml:createDate>2018-05-03T13:51:36+02:00</witsml:createDate>
+<witsml:wellAlias><witsml:name>15/9-F-11 B</witsml:name><witsml:namingSystem>NPD code</witsml:namingSystem></witsml:wellAlias>
+<witsml:wellboreAlias><witsml:name>15/9-F-11 B</witsml:name><witsml:namingSystem>NPD code</witsml:namingSystem></witsml:wellboreAlias><witsml:wellboreAlias><witsml:name>7080</witsml:name><witsml:namingSystem>NPD number</witsml:namingSystem></witsml:wellboreAlias>
+<witsml:wellboreInfo><witsml:dTimSpud>2013-05-28T14:30:00+02:00</witsml:dTimSpud><witsml:dateDrillComplete>2013-06-12</witsml:dateDrillComplete><witsml:daysAhead>14.5</witsml:daysAhead><witsml:operator>Statoil</witsml:operator><witsml:drillContractor>Maersk Drilling</witsml:drillContractor><witsml:rigAlias><witsml:name>MÆRSK INSPIRER</witsml:name><witsml:namingSystem>NPD Name</witsml:namingSystem></witsml:rigAlias><witsml:rigAlias><witsml:name>369304</witsml:name><witsml:namingSystem>NPD code</witsml:namingSystem></witsml:rigAlias></witsml:wellboreInfo>
+<witsml:statusInfo><witsml:reportNo>32</witsml:reportNo><witsml:dTim>2013-06-29T00:00:00+02:00</witsml:dTim><witsml:md uom="m">4770</witsml:md><witsml:dTimDiaHoleStart>2013-06-28T01:00:00+02:00</witsml:dTimDiaHoleStart><witsml:mdDiaHoleStart uom="m">4770</witsml:mdDiaHoleStart><witsml:strengthForm uom="g/cm3">1.65</witsml:strengthForm><witsml:mdStrengthForm uom="m">3192</witsml:mdStrengthForm><witsml:tvdStrengthForm uom="m">2780</witsml:tvdStrengthForm><witsml:mdCsgLast uom="m">4768.7</witsml:mdCsgLast><witsml:tvdCsgLast uom="m">3257</witsml:tvdCsgLast><witsml:presTestType>formation integrity test</witsml:presTestType><witsml:mdPlanned uom="m">-999.99</witsml:mdPlanned><witsml:distDrill uom="m">-999.99</witsml:distDrill><witsml:elevKelly uom="m">54.9</witsml:elevKelly><witsml:wellheadElevation uom="m">138.9</witsml:wellheadElevation><witsml:waterDepth uom="m">91</witsml:waterDepth><witsml:sum24Hr>Retrieved annulus insert.
+RIH with tie-back string.
+
+</witsml:sum24Hr><witsml:forecast24Hr>Install tie-back connector and pressure test same.
+Install adjustable surface hanger and test same.
+Run seal assembly.
+Test BOP connection.
+Slip and cut drill line.
+Pull Safelock plug.
+</witsml:forecast24Hr><witsml:ropCurrent uom="m/h">-999.99</witsml:ropCurrent><witsml:tightWell>0</witsml:tightWell><witsml:hpht>0</witsml:hpht><witsml:fixedRig>false</witsml:fixedRig></witsml:statusInfo>
+<witsml:fluid><witsml:type>NaCl brine</witsml:type><witsml:locationSample>Flowline</witsml:locationSample><witsml:dTim>2013-06-28T21:00:00+02:00</witsml:dTim><witsml:md datum="RKB" uom="m">4770</witsml:md><witsml:presBopRating uom="bar">345</witsml:presBopRating><witsml:mudClass>water based</witsml:mudClass><witsml:density uom="g/cm3">1.03</witsml:density><witsml:visFunnel uom="s">-999.99</witsml:visFunnel><witsml:pv uom="mPa.s">-999.99</witsml:pv><witsml:yp uom="Pa">-999.99</witsml:yp></witsml:fluid>
+<witsml:activity><witsml:dTimStart>2013-06-28T00:00:00+02:00</witsml:dTimStart><witsml:dTimEnd>2013-06-28T01:00:00+02:00</witsml:dTimEnd><witsml:md uom="m">0</witsml:md><witsml:phase>fixed</witsml:phase><witsml:proprietaryCode>completion -- bop/wellhead equipment</witsml:proprietaryCode><witsml:state>ok</witsml:state><witsml:stateDetailActivity>success</witsml:stateDetailActivity><witsml:comments>Pulled master bushings.
+Installed diverter.</witsml:comments></witsml:activity><witsml:activity><witsml:dTimStart>2013-06-28T01:00:00+02:00</witsml:dTimStart><witsml:dTimEnd>2013-06-28T02:45:00+02:00</witsml:dTimEnd><witsml:md uom="m">0</witsml:md><witsml:phase>fixed</witsml:phase><witsml:proprietaryCode>completion -- bop/wellhead equipment</witsml:proprietaryCode><witsml:state>ok</witsml:state><witsml:stateDetailActivity>success</witsml:stateDetailActivity><witsml:comments>Installed BX elevator and rotator.
+Changed handling equipment to 5 1/2&quot;.
+Picked up bowl protector RT and made up same to 5 1/2&quot; DP.
+RIH and installed bowl protector.
+POOH with RT.</witsml:comments></witsml:activity><witsml:activity><witsml:dTimStart>2013-06-28T02:45:00+02:00</witsml:dTimStart><witsml:dTimEnd>2013-06-28T08:30:00+02:00</witsml:dTimEnd><witsml:md uom="m">0</witsml:md><witsml:phase>fixed</witsml:phase><witsml:proprietaryCode>completion -- bop/wellhead equipment</witsml:proprietaryCode><witsml:state>ok</witsml:state><witsml:stateDetailActivity>success</witsml:stateDetailActivity><witsml:comments>Picked up and RIH with annulus insert retrieval tool.
+Tagged and engaged annulus insert at 140,2 meter, Not able to release annulus insert.
+POOH with RT.
+Redressed RT, replaced torque pins with torque keys.
+Ran back in with RT and engaged same.
+Released annulus insert with 4000 Nm.
+POOH with RT and redressed same with torque pins.
+RIH and retrieved annulus insert.
+Broke out and laid down annulus RT to cantilever.</witsml:comments></witsml:activity><witsml:activity><witsml:dTimStart>2013-06-28T08:30:00+02:00</witsml:dTimStart><witsml:dTimEnd>2013-06-28T12:30:00+02:00</witsml:dTimEnd><witsml:md uom="m">0</witsml:md><witsml:phase>fixed</witsml:phase><witsml:proprietaryCode>completion -- bop/wellhead equipment</witsml:proprietaryCode><witsml:state>ok</witsml:state><witsml:stateDetailActivity>success</witsml:stateDetailActivity><witsml:comments>Held pre-job meeting prior to clean out run.
+Picked up and made up jetting sub to 5 1/2&quot; DP.
+RIH with jetting sub on 5 1/2&quot; DP from surface to 150 m.
+Pumped 13 m3 hi-vis pill with 500 liter/min, 4 bar. 
+Chased pill with 4,5 m3 SW at 500 liter/min, 2,8 bar. 
+Stopped pumping and RIH from 150 m to 170 m.
+Waited for pill to soak for 10 minutes.
+Commenced circulation with SW between 170 m - 135 m at 3000 liter/min, 26 bar, 10 rpm, 1-3 kNm. 
+Displaced well back to 26 m3 1,03 sg inhibited brine with 3000 liter/min, 26 bar.
+POOH and laid down jet sub.</witsml:comments></witsml:activity><witsml:activity><witsml:dTimStart>2013-06-28T12:30:00+02:00</witsml:dTimStart><witsml:dTimEnd>2013-06-28T13:45:00+02:00</witsml:dTimEnd><witsml:md uom="m">0</witsml:md><witsml:phase>fixed</witsml:phase><witsml:proprietaryCode>completion -- bop/wellhead equipment</witsml:proprietaryCode><witsml:state>ok</witsml:state><witsml:stateDetailActivity>success</witsml:stateDetailActivity><witsml:comments>Strapped DP stands from derrick.</witsml:comments></witsml:activity><witsml:activity><witsml:dTimStart>2013-06-28T13:45:00+02:00</witsml:dTimStart><witsml:dTimEnd>2013-06-28T14:30:00+02:00</witsml:dTimEnd><witsml:md uom="m">0</witsml:md><witsml:phase>fixed</witsml:phase><witsml:proprietaryCode>completion -- bop/wellhead equipment</witsml:proprietaryCode><witsml:state>ok</witsml:state><witsml:stateDetailActivity>success</witsml:stateDetailActivity><witsml:comments>Held pre-job meeting prior to retrieving bowl protector.
+RIH with bowl protector retrieval tool and retrieved same.
+POOH with bowl protector.</witsml:comments></witsml:activity><witsml:activity><witsml:dTimStart>2013-06-28T14:30:00+02:00</witsml:dTimStart><witsml:dTimEnd>2013-06-28T17:15:00+02:00</witsml:dTimEnd><witsml:md uom="m">0</witsml:md><witsml:phase>fixed</witsml:phase><witsml:proprietaryCode>drilling -- casing</witsml:proprietaryCode><witsml:state>ok</witsml:state><witsml:stateDetailActivity>success</witsml:stateDetailActivity><witsml:comments>Performed pre-job meeting prior to rig up.
+Rigged up handling equipment for 10 3/4&quot;  tie-back casing.</witsml:comments></witsml:activity><witsml:activity><witsml:dTimStart>2013-06-28T17:15:00+02:00</witsml:dTimStart><witsml:dTimEnd>2013-06-28T20:00:00+02:00</witsml:dTimEnd><witsml:md uom="m">0</witsml:md><witsml:phase>fixed</witsml:phase><witsml:proprietaryCode>drilling -- casing</witsml:proprietaryCode><witsml:state>ok</witsml:state><witsml:stateDetailActivity>success</witsml:stateDetailActivity><witsml:comments>Held pre-job meeting prior make up setting tool.
+Picked up and racked back adjustable surface hanger setting tool.</witsml:comments></witsml:activity><witsml:activity><witsml:dTimStart>2013-06-28T20:00:00+02:00</witsml:dTimStart><witsml:dTimEnd>2013-06-28T21:00:00+02:00</witsml:dTimEnd><witsml:md uom="m">0</witsml:md><witsml:phase>fixed</witsml:phase><witsml:proprietaryCode>drilling -- casing</witsml:proprietaryCode><witsml:state>ok</witsml:state><witsml:stateDetailActivity>success</witsml:stateDetailActivity><witsml:comments>Cleaned and cleared rigfloor.
+Installed large head for 10 3/4&quot; casing handling in PDM.
+Performed pre-job meeting prior to run 10 3/4&quot; tie-back string.</witsml:comments></witsml:activity><witsml:activity><witsml:dTimStart>2013-06-28T21:00:00+02:00</witsml:dTimStart><witsml:dTimEnd>2013-06-28T23:15:00+02:00</witsml:dTimEnd><witsml:md uom="m">103</witsml:md><witsml:phase>fixed</witsml:phase><witsml:proprietaryCode>drilling -- casing</witsml:proprietaryCode><witsml:state>ok</witsml:state><witsml:stateDetailActivity>success</witsml:stateDetailActivity><witsml:comments>Picked up 10 3/4&quot; tie-back connector, inspected same, ok.
+Picked up and RIH with 10 3/4&quot; tie-back string as per running tally from surface to 103 meter.
+</witsml:comments></witsml:activity><witsml:activity><witsml:dTimStart>2013-06-28T23:15:00+02:00</witsml:dTimStart><witsml:dTimEnd>2013-06-29T00:00:00+02:00</witsml:dTimEnd><witsml:md uom="m">123</witsml:md><witsml:phase>fixed</witsml:phase><witsml:proprietaryCode>drilling -- casing</witsml:proprietaryCode><witsml:state>ok</witsml:state><witsml:stateDetailActivity>success</witsml:stateDetailActivity><witsml:comments>Picked up 10 3/4&quot; surface casing hanger assembly with adjustment sub and continued to RIH.
+</witsml:comments></witsml:activity>
+</witsml:drillReport>
+</witsml:drillReports>
