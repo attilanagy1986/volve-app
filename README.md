@@ -22,14 +22,14 @@ alternatively run openlab_app.py, which contains all the scripts in a single bun
 the app runs at http://127.0.0.1:8050 (local server)
 
 **App structure**\
-Wells page:\ 
+Wells page: \ 
 general info about 25 Volve wellbores, use the dropdown to select
 
-Hole section, Wellpath, Fluid, Drillstring, Geopressures, Geothermal pages:\ 
+Hole section, Wellpath, Fluid, Drillstring, Geopressures, Geothermal pages: \ 
 after the selection of a wellbore, the well configuration details are displayed by the means of interactive graphs and tables\ 
 all graphs display information on hover, 3D well trajectories can also be rotated
 
-OpenLab page:\
+OpenLab page: \
 Select a wellbore and a hole section, then provide the OpenLab credentials generated in the Settings of the OpenLab Web Client\
 click the 'Create configuration' button, the selected wellbore configuration is sent directly to the OpenLab Web client\
 ready to start a simulations in OpenLab
