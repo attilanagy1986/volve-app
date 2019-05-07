@@ -17,6 +17,9 @@ requirements.txt:\
 contains the Python dependencies
 
 **Starting the app**\
+Online:\
+http://openlab.herokuapp.com
+Local:\
 clone the repository, then run index.py to start the app\
 alternatively run openlab_app.py, which contains all the scripts in a single bundle\
 the app runs at http://127.0.0.1:8050 (local server)
@@ -29,4 +32,4 @@ Hole section, Wellpath, Fluid, Drillstring, Geopressures, Geothermal pages:\
 After the selection of a wellbore, the well configuration details are displayed by interactive graphs and tables. All graphs display information on hover, 3D well trajectories can also be rotated.
 
 OpenLab page:\
-Select a wellbore and a hole section, then provide the OpenLab credentials generated in the Settings of the OpenLab Web Client. Click the 'Create configuration' button, the selected wellbore configuration is sent directly to the OpenLab Web client. Ready to start a simulation in OpenLab.
+Select a wellbore and a hole section, then provide the OpenLab credentials generated in the Settings of the OpenLab Web Client ('Generate Python login script'). Click the 'Create configuration' button, the selected wellbore configuration is sent directly to the OpenLab Web client. Ready to start a simulation in OpenLab.
