@@ -18,7 +18,7 @@ contains the Python dependencies
 
 **Starting the app**\
 Online:\
-http://openlab.herokuapp.com
+http://openlab.herokuapp.com \
 Local:\
 clone the repository, then run index.py to start the app\
 alternatively run openlab_app.py, which contains all the scripts in a single bundle\
