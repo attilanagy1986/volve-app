@@ -1,4 +1,4 @@
-This is an integrated web application for the OpenLab Drilling Simulator (developed by NORCE, formerly IRIS), the purpose is to create new configurations based on actual well technical data extracted from the Volve dataset (disclosed by Equinor). The app is created with Python using the Dash framework and Plotly library. The app is deployed at http://openlab.herokuapp.com. The OpenLab Web Client can be accessed at https://live.openlab.app, no registration is needed, the simulator can be used by signing in with a Google account.
+Integrated web application for the OpenLab Drilling Simulator, the purpose is to create new configurations based on actual well technical data extracted from the Volve dataset (disclosed by Equinor). The app is created with Python using the Dash framework and Plotly library. The app is deployed at http://openlab.herokuapp.com. The OpenLab Drilling Simulator (developed by NORCE, formerly IRIS) can be accessed at https://live.openlab.app, no registration is needed, the simulator can be used by signing in with a Google account.
 
 **Repository structure**\
 Configurations folder:\
