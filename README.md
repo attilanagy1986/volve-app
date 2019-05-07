@@ -30,6 +30,6 @@ after the selection of a wellbore, the well configuration details are displayed 
 all graphs display information on hover, 3D well trajectories can also be rotated
 
 OpenLab page: \
-Select a wellbore and a hole section, then provide the OpenLab credentials generated in the Settings of the OpenLab Web Client\
+select a wellbore and a hole section, then provide the OpenLab credentials generated in the Settings of the OpenLab Web Client\
 click the 'Create configuration' button, the selected wellbore configuration is sent directly to the OpenLab Web client\
 ready to start a simulations in OpenLab
