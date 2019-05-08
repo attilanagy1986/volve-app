@@ -420,7 +420,7 @@ def operations_plot(df):
 
     data = [
         dict(
-            Task='<b>Ops</b>',
+            Task='<b>Activities</b>',
             Start=df['Start'].loc[num],
             Finish=df['End'].loc[num],
             Resource=df['State'].loc[num].replace(' ','_')
