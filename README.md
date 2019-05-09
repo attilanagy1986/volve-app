@@ -30,7 +30,7 @@ Volve wells page:\
 General info about the 25 Volve wellbores, use the dropdown to select.
 
 Time/depth curve page:\
-Displays an interactive time vs. depth curve. Hoverinfo consists of information on date, measured depth, section drilled and 24h summary. Points on the zero line (MD=0m) are due to missing data in the drilling report. Zoom-in by drag-and-drop, zoom-out by double click. Range selector on the top left corner of the plot to specify the time range. The timeline (x-axis) functions as a range slider.
+Displays an interactive time vs. depth curve. Hoverinfo consists of information on date, measured depth, section drilled and 24h summary. Zoom-in by drag-and-drop, zoom-out by double click. Range selector on the top left corner of the plot to specify the time range. The timeline (x-axis) functions as a range slider.
 
 Operations page:\
 Displays an interactive timeline of the operational activities. Hoverinfo consists of information on start and end time, duration, measured depth, operation phase, state of activity and comment. Each activity is colored according to the state of that certain activity. The following categories apply: equipment failure, injury, mud and circulation loss, operation failed, stuck equipment, success. Therefore drilling problems, as well as practices to solve the problem/mitigate the consequencies can be examined. Zoom-in by drag-and-drop, zoom-out by double click. Range selector on the top left corner of the plot to specify the time range. The timeline (x-axis) functions as a range slider.
