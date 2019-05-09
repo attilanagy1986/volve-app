@@ -1,13 +1,13 @@
 import dash_core_components as dcc
 import dash_html_components as html
 from dash.dependencies import Input, Output
-
+#import app and the separate app pages
 from app import app
 import volve_wells
 import timevsdepth
 import operations
 
-
+#wellbore names for dropdown selection
 wells_dict = {
             '15_9_19_A': '15/9-19 A',
             '15_9_19_B': '15/9-19 B',
@@ -37,6 +37,7 @@ wells_dict = {
             '15_9_F_15_D': '15/9-F-15 D'
             }
 
+#define the app layout
 app.layout = html.Div([
     dcc.Location(id='url'),
     dcc.Link(
@@ -79,7 +80,7 @@ app.layout = html.Div([
     html.Div(id='page-content')
 ], style={'font-family': 'Calibri', 'paddingLeft':'25px', 'paddingRight':'25px'})
 
-
+#callback to populate page content
 @app.callback(
     Output('page-content', 'children'),
     [Input('url', 'pathname')]
@@ -92,7 +93,7 @@ def populate_content(url):
     elif url == '/operations':
         return operations.page_layout
 
-
+#callback for mulltipage persistence of the wellbore dropdown
 @app.callback(
     Output('external-page-wells', 'style'),
     [Input('url', 'pathname')]
@@ -103,7 +104,7 @@ def hide_external(url):
     else:
         return {'display': 'none'}
 
-
+#callback to display the selected wellbore name
 @app.callback(
     Output('dropdown-output', 'children'),
     [Input('wells-dropdown', 'value')]
@@ -112,6 +113,6 @@ def display_dropdown_contents(val):
     if val:
         return f'Wellbore selected: {wells_dict[val]}'
 
-
+#run the app
 if __name__ == '__main__':
     app.run_server()

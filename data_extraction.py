@@ -3,7 +3,7 @@ import xml.etree.ElementTree as et
 import pandas as pd
 from datetime import datetime
 
-
+#function to extract data from the daily drilling reports for the time/depth curve
 def get_timevsdepth(well):
 
     report_list = os.listdir('Reports')
@@ -93,7 +93,7 @@ def get_timevsdepth(well):
     os.chdir('../')
     return df
 
-
+#function to extract data from the daily drilling reports for the operations timeline
 def get_operations(well):
 
     report_list = os.listdir('Reports')

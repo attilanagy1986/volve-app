@@ -9,7 +9,7 @@ import numpy as np
 from app import app
 import data_extraction
 
-
+#function to create the time/depth plot
 def timevsdepth_plot(df):
 
     trace0 = go.Scatter(
@@ -111,9 +111,10 @@ def timevsdepth_plot(df):
     fig['layout']['xaxis'].update(ticktext=5*np.array(list(range(len(fig['layout']['xaxis']['tickvals'])))))
     return fig
 
-
+#default wellbore
 df_timevsdepth = data_extraction.get_timevsdepth('15_9_19_A')
 
+#define page layout
 page_layout = html.Div([
     html.H3(['Time/depth curve']),
     html.Div(id='dropdown-output', style={'paddingBottom': '10px', 'border-bottom': '1px solid black', 'font-weight': 'bold'}),
@@ -125,7 +126,7 @@ page_layout = html.Div([
     ), style={'display': 'block'}
 )])
 
-
+#callback to change the plot according to wellbore selection
 @app.callback(
     Output('timevsdepth-plot', 'figure'),
     [Input('wells-dropdown', 'value')]

@@ -2,9 +2,10 @@ import dash_table
 import dash_html_components as html
 import pandas as pd
 
-
+#read data from csv
 df_wells = pd.read_csv('Data/volve_wells.csv', sep=';')
 
+#define page layout and content
 page_layout = html.Div([
     dash_table.DataTable(
         id='wells-table',

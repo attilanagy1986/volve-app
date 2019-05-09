@@ -9,7 +9,7 @@ import numpy as np
 from app import app
 import data_extraction
 
-
+#function to create the operations timeline plot
 def operations_plot(df):
 
     data = [
@@ -112,8 +112,10 @@ def operations_plot(df):
 
     return fig
 
+#default wellbore
 df_operations = data_extraction.get_operations('15_9_19_A')
 
+#define page layout
 page_layout = html.Div([
     html.H3(['Operations']),
     html.Div(id='dropdown-output', style={'paddingBottom': '10px', 'border-bottom': '1px solid black', 'font-weight': 'bold'}),
@@ -125,7 +127,7 @@ page_layout = html.Div([
     ), style={'display': 'block'}
 )])
 
-
+#callback to change the plot according to wellbore selection
 @app.callback(
     Output('operations-plot', 'figure'),
     [Input('wells-dropdown', 'value')]
