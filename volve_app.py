@@ -1,3 +1,4 @@
+#single bundle of all the scripts
 import dash
 import dash_table
 import dash_core_components as dcc
