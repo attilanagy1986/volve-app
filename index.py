@@ -80,7 +80,7 @@ app.layout = html.Div([
     html.Div(id='page-content')
 ], style={'font-family': 'Calibri', 'paddingLeft':'25px', 'paddingRight':'25px'})
 
-#callback to populate page content
+#callback to update page content
 @app.callback(
     Output('page-content', 'children'),
     [Input('url', 'pathname')]

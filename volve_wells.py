@@ -5,7 +5,7 @@ import pandas as pd
 #read data from csv
 df_wells = pd.read_csv('Data/volve_wells.csv', sep=';')
 
-#define page layout and content
+#define volve wells page layout and content
 page_layout = html.Div([
     dash_table.DataTable(
         id='wells-table',

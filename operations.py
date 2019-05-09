@@ -115,7 +115,7 @@ def operations_plot(df):
 #default wellbore
 df_operations = data_extraction.get_operations('15_9_19_A')
 
-#define page layout
+#define operations page layout
 page_layout = html.Div([
     html.H3(['Operations']),
     html.Div(id='dropdown-output', style={'paddingBottom': '10px', 'border-bottom': '1px solid black', 'font-weight': 'bold'}),

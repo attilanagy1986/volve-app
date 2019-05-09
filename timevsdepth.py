@@ -114,7 +114,7 @@ def timevsdepth_plot(df):
 #default wellbore
 df_timevsdepth = data_extraction.get_timevsdepth('15_9_19_A')
 
-#define page layout
+#define time/depth curve page layout
 page_layout = html.Div([
     html.H3(['Time/depth curve']),
     html.Div(id='dropdown-output', style={'paddingBottom': '10px', 'border-bottom': '1px solid black', 'font-weight': 'bold'}),
